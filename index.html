@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,12 +44,18 @@
       display: inline-flex;
       align-items: center;
       border-radius: 10px;
-      gap: 10px;
+      gap: 15px;
     }
     .chat-box img {
       width: 24px;
       height: 24px;
       cursor: pointer;
+    }
+    .chat-text {
+      text-align: left;
+    }
+    .chat-text div:first-child {
+      font-weight: bold;
     }
   </style>
 </head>
@@ -56,6 +63,7 @@
   <img src="NeoLogo.png" alt="Neo Logo" class="logo" />
   <div class="message">Our website is currently under maintenance.</div>
   <div class="sub-message">We will be back soon!</div>
+
   <div class="social-icons">
     <a href="https://www.facebook.com/neoinear/" target="_blank">
       <img src="fbNeo.png" alt="Facebook">
@@ -64,8 +72,12 @@
       <img src="igNeo.png" alt="Instagram">
     </a>
   </div>
+
   <div class="chat-box">
-    <span>chat with us now</span>
+    <div class="chat-text">
+      <div>Have any question or ready to order?</div>
+      <div>Chat with us now!</div>
+    </div>
     <a href="https://m.me/your_messenger_page" target="_blank">
       <img src="messengerNeo.png" alt="Messenger">
     </a>
