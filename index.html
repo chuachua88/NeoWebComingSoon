@@ -17,6 +17,11 @@
       margin: 0 auto 30px;
       display: block;
     }
+    .ciem-image {
+      max-width: 90%;
+      height: auto;
+      margin: 30px 0;
+    }
     .message {
       font-weight: bold;
       font-size: 1.5em;
@@ -37,30 +42,29 @@
       vertical-align: middle;
       cursor: pointer;
     }
-    .chat-box {
-      background-color: white;
-      color: #111;
-      padding: 15px 20px;
-      display: inline-flex;
-      align-items: center;
-      border-radius: 10px;
-      gap: 15px;
+    .chat-section {
+      margin-top: 40px;
     }
-    .chat-box img {
-      width: 24px;
-      height: 24px;
-      cursor: pointer;
-    }
-    .chat-text {
-      text-align: left;
-    }
-    .chat-text div:first-child {
+    .chat-link {
+      color: #2196F3;
+      text-decoration: underline;
       font-weight: bold;
+      display: inline-block;
+      margin-bottom: 15px;
+      font-size: 1.2em;
+    }
+    .messenger-icon {
+      width: 48px;
+      height: auto;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
   <img src="NeoLogo.png" alt="Neo Logo" class="logo" />
+  
+  <img src="neoCiem.jpg" alt="Neo CIEM" class="ciem-image" />
+
   <div class="message">Our website is currently under maintenance.</div>
   <div class="sub-message">We will be back soon!</div>
 
@@ -73,13 +77,10 @@
     </a>
   </div>
 
-  <div class="chat-box">
-    <div class="chat-text">
-      <div>Have any question or ready to order?</div>
-      <div>Chat with us now!</div>
-    </div>
+  <div class="chat-section">
+    <a class="chat-link" href="https://m.me/neoinear" target="_blank">Chat with us now!</a><br />
     <a href="https://m.me/neoinear" target="_blank">
-      <img src="messengerNeo.png" alt="Messenger">
+      <img src="messengerNeo.png" alt="Messenger" class="messenger-icon">
     </a>
   </div>
 </body>
