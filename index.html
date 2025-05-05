@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,20 +22,28 @@
       height: auto;
       margin: 40px 0;
     }
-    .message {
+    .message1 {
       font-weight: bold;
-      font-size: 1.2em;
-      margin-bottom: 20px;
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      color: #fff;
+      text-shadow: 0 0 2px #fff,
+               0 0 4px #ccc,
+               0 0 6px #bbb;
+    }
+    .message2 {
+      font-size: 1em;
+      margin-bottom: 60px;
     }
     .sub-message {
-      font-size: 1.2em;
-      margin-bottom: 40px;
+      font-size: 0.8em;
+      margin-bottom: 10px;
     }
     .social-icons {
       display: flex;
       justify-content: center;
       gap: 50px;
-      margin-bottom: 50px;
+      margin-bottom: 60px;
     }
     .social-icons img {
       width: 50px;
@@ -50,14 +59,13 @@
       text-align: center;
     }
     .chat-box p {
-      margin: 0 0 09px;
+      margin: 0 0 9px;
       font-weight: bold;
     }
     .chat-link {
       color: #2196F3;
       text-decoration: underline;
-      font-weight: bold;
-      font-size: 1.0em;
+      font-size: 1em;
       display: inline-block;
       margin-bottom: 10px;
     }
@@ -69,10 +77,13 @@
   </style>
 </head>
 <body>
-  <img src="NeoLogo.png" alt="Neo Logo" class="logo" />  
-  <img src="neoCiem.jpg" alt="Neo CIEM" class="ciem-image" />  
-  <div class="message">Our website is currently under maintenance.</div>
-  <div class="sub-message">We will be back soon!</div>  
+  <img src="NeoLogo.png" alt="Neo Logo" class="logo" />
+  <img src="neoCiem.jpg" alt="Neo CIEM" class="ciem-image" />
+  
+  <div class="message1">Our website is temporarily under maintenance.</div>
+  <div class="message2">We’ll be back online very soon!</div>
+  <div class="sub-message">Follow us on:</div>
+  
   <div class="social-icons">
     <a href="https://www.facebook.com/neoinear/" target="_blank">
       <img src="fbNeo.png" alt="Facebook">
@@ -80,7 +91,9 @@
     <a href="https://www.Instagram.com/neociem/" target="_blank">
       <img src="igNeo.png" alt="Instagram">
     </a>
-  </div>  <div class="chat-box">
+  </div>
+  
+  <div class="chat-box">
     <p>Have any question or ready to order?</p>
     <a class="chat-link" href="https://m.me/neoinear" target="_blank">Chat with us now!</a><br />
     <a href="https://m.me/neoinear" target="_blank">
