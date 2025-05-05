@@ -13,60 +13,77 @@
     body {
       background-color: #111;
       color: white;
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       text-align: center;
-      padding: 50px 20px;
+      padding: 80px 40px;
     }
+
     .logo {
       max-width: 300px;
-      margin: 0 auto 30px;
-      display: block;
+      margin-bottom: 50px;
     }
+
     .ciem-image {
-      max-width: 90%;
+      max-width: 800px;
+      width: 90%;
       height: auto;
-      margin: 40px 0;
+      margin: 50px 0;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
     }
+
     .message1 {
       font-weight: bold;
-      font-size: 1.4em;
+      font-size: 1.8em;
       margin-bottom: 20px;
       color: #fff;
-      text-shadow: 0 0 2px #fff,
-                   0 0 4px #ccc,
-                   0 0 6px #bbb;
+      text-shadow: 0 0 2px #fff, 0 0 4px #ccc, 0 0 6px #bbb;
     }
+
     .message2 {
-      font-size: 1.1em;
+      font-size: 1.2em;
       margin-bottom: 40px;
+      color: #ddd;
     }
+
     .sub-message {
-      font-size: 1em;
-      margin-bottom: 15px;
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      color: #aaa;
     }
+
     .social-icons {
       display: flex;
       justify-content: center;
-      gap: 50px;
+      gap: 60px;
       margin-bottom: 60px;
     }
+
     .social-icons img {
-      width: 50px;
-      vertical-align: middle;
-      cursor: pointer;
+      width: 55px;
+      transition: transform 0.2s ease;
     }
+
+    .social-icons img:hover {
+      transform: scale(1.1);
+    }
+
     .chat-box {
-      background-color: white;
+      background-color: #fff;
       color: #111;
-      padding: 16px 15px;
-      border-radius: 12px;
+      padding: 20px 25px;
+      border-radius: 14px;
       display: inline-block;
       text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     }
+
     .chat-box p {
-      margin: 0 0 9px;
+      margin: 0 0 12px;
       font-weight: bold;
+      font-size: 1.1em;
     }
+
     .chat-link {
       color: #2196F3;
       text-decoration: underline;
@@ -75,10 +92,11 @@
       display: inline-block;
       margin-bottom: 10px;
     }
+
     .messenger-icon {
-      width: 40px;
-      height: auto;
+      width: 42px;
       cursor: pointer;
+      margin-top: 5px;
     }
   </style>
 </head>
